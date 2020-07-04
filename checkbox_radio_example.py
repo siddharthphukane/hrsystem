@@ -4,6 +4,8 @@ import time
 driver = webdriver.Chrome(executable_path =r"C:\Users\SIDDHARTHPHUKANE\PycharmProjects\durongclass\resources\chromedriver.exe")   #keyword argument and not positional argiment
 driver.maximize_window()
 driver.get("http://cookbook.seleniumacademy.com/Config.html")
+print("test")
+print("test2")
 
 make = driver.find_element_by_xpath("//select[@name='make']")
 
