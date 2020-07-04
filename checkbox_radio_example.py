@@ -6,6 +6,7 @@ driver.maximize_window()
 driver.get("http://cookbook.seleniumacademy.com/Config.html")
 print("test")
 print("test2")
+print("This change is made after committing to in the GitHub repository")
 
 make = driver.find_element_by_xpath("//select[@name='make']")
 
